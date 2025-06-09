@@ -1,9 +1,11 @@
 terraform {
   backend "s3" {
-    bucket  = "github-terraform-bucket"
-    key     = "infra.tfstate"
-    region  = "ap-south-1"
-    profile = "default"
-    dynamodb_table = "vegeta-terraform-remote-state-table"
+    bucket         = "my-ews-baket3"
+    key            = "LockID"
+    region         = "us-west-2"
+    profile        = "default"
+    dynamodb_table = "springapp_terraform-stl"
+    # use_lockfile = true
   }
 }
+ 

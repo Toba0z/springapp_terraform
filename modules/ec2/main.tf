@@ -3,7 +3,7 @@ resource "aws_security_group" "vpc_endpoint_security_group" {
   name = "vpc-endpoint-sg"
   vpc_id      = var.vpc_id
   description = "security group for VPC Endpoints"
-
+ 
   # Allow inbound HTTPS traffic
   ingress {
     from_port   = 443

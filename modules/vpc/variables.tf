@@ -7,3 +7,4 @@ variable "private_subnet_az1_cidr" {}
 variable "private_subnet_az2_cidr" {}
 variable "secure_subnet_az1_cidr" {}
 variable "secure_subnet_az2_cidr" {}
+
