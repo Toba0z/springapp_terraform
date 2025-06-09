@@ -1,6 +1,4 @@
-
 .terraform/
 *.tfstate
-*.tfstate.backup
 *.exe
 .DS_Store/
